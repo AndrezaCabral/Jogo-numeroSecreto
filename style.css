@@ -1,0 +1,71 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Macondo&family=Montserrat&display=swap');
+
+  :root{
+    --fonte-Montserrat:'Montserrat', sem serifa;
+    --fonte-Macondo:'Macondo', cursiva;
+
+    --cor-primaria:#9EA1D4;
+    --cor-de-fundo:#FD8A8A;
+    --cor-de-fonte:white;
+
+  }
+
+  body{
+
+    background-color: var(--cor-de-fundo);
+    color:var(--cor-de-fonte);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: 'Montserrat', sem serifa;
+    
+  }
+
+  h1{
+  font-size: 5em;
+  font-family: 'Macondo', cursiva;
+
+  }
+
+  h2{
+    font-size: 4em;
+  }
+
+
+  h3{
+    font-size: 2em;
+    margin-top: 20px;
+
+  }
+
+  .mensagem{
+    font-size: 1.5em;
+    margin-top: 40px;
+  }
+
+  .box{
+    border: 2px solid var(--cor-de-fonte);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+
+  }
+
+  .botao-jogar{
+    padding: 8px 15px;
+    border: 0;
+    background: var(--cor-de-fonte);
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family:'Montserrat', sem serifa;
+    font-size: 1.2em;
+  
+
+  }
+
